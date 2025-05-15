@@ -1,5 +1,5 @@
 # React Example Project
-This repository contains React project Minitask 3 with useEffect example. This project is about using useEffect by fetching an api to the Rick and Morty API.
+This repository contains React project Minitask 3 with useState example. This project is about using useEffect by fetching an api to the Rick and Morty API.
 
 ## Preview
 ![Preview](Screenshot.png)

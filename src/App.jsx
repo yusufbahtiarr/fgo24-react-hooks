@@ -13,11 +13,11 @@ function App() {
   }, []);
 
   return (
-    <div className='flex flex-row h-full w-full flex-wrap gap-2 justify-center'>
+    <div className='grid grid-cols-4 gap-6 rounded-lg'>
         {data.map((rick) => (
-          <div className='flex flex-col gap-2 pb-4 '>
-            <img className='h-[200px] w-[200px]] rounded-2xl' src={rick.image} alt="image" />
-            <span className='text-teal-900'>{rick.name}</span>
+          <div className='flex flex-col gap-2 pb-4 max-w-sm rounded-lg overflow-hidden shadow-lg'>
+            <img className='h-[200px]' src={rick.image} alt={rick.name} />
+            <span className='text-slate-900 text-xl font-semibold'>{rick.name}</span>
           </div>
         ))}
     </div>
